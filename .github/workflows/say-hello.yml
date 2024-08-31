@@ -7,3 +7,6 @@ jobs:
     steps: 
       - uses: actions/checkout@v4
       - run: make say-hello
+
+      - uses: actions/hexlet-components/hello-from-hexlet-action
+      - run: hexlet-components/hello-from-hexlet-action
